@@ -14,5 +14,10 @@ public int add(){
     sum=a+b;
     return sum;
 } 
+public int multiply(){
+    int pro;
+    pro=a*b;
+    return pro;
+}
 }
   

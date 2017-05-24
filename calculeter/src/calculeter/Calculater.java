@@ -35,5 +35,19 @@ public int subtract(){
     
     return sub;
 }
+ public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the two numberes");
+         a=s.nextInt();
+         b=s.nextInt();
+         Calculater c=new Calculater();
+        
+         System.out.println("the sum of the numberes is "+c.add());
+         System.out.println("the product of the numberes is "+ c.multiply());
+         System.out.println("the division of the numberes is "+c.Divide());
+         System.out.println("the substraction of the numberes is "+c.subtract());
+         
+    }
+    
 }
   

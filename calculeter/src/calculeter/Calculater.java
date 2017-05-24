@@ -30,5 +30,10 @@ public float Divide(){
     }
 return div;
 }
+public int subtract(){
+    int sub=a-b;
+    
+    return sub;
+}
 }
   

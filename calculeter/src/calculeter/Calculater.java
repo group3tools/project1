@@ -19,5 +19,16 @@ public int multiply(){
     pro=a*b;
     return pro;
 }
+public float Divide(){
+   
+    float div=0;
+    if(b!=0){
+    div=a/b;    
+    }
+    else{
+        System.out.println("invalid input");
+    }
+return div;
+}
 }
   
